@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/dark"
+        android:icon="@drawable/ic_dark"
+        android:title="Dark Mode"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/light"
+        android:title="Light Mode"
+        android:icon="@drawable/ic_light"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/delete_all"
+        android:icon="@drawable/ic_delete"
+        android:title="Delete all items"
+        app:showAsAction="ifRoom"></item>
+
+
+
+</menu>
